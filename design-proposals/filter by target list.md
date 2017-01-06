@@ -1,5 +1,6 @@
 # filter by gene list
 ## use case
+scientists want to filter the associations table for a number of genes they are interested in
 
 ## what would it look like?
 
