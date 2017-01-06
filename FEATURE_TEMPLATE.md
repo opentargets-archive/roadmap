@@ -17,35 +17,32 @@ to reach Stable.
 
 ** Delete from here to top of input box before creating issue so that issue creation emails will be informative.**
 
-# Description
+# [ ] Description
 
 **Add description here**
+Think of it as the blog post you would write once the feature is released on the Open Targets platform
 
 
 # Progress Tracker
 
-- [ ] Alpha
-    - [ ] Write and maintain draft quality doc
-      - [ ] During development keep a doc up-to-date about the desired experience of the feature and how someone can try the feature in its current state. Think of it as the README of your new feature and a skeleton for the docs to be written before the Open Targets release. Paste link to Google Doc: **DOC-LINK**
-    - [ ] Design Approval
-      - [ ] Design Proposal.  This goes under [design-proposals](https://github.com/kubernetes/community/tree/master/contributors/design-proposals).  Doing a proposal as a PR allows line-by-line commenting from community, and creates the basis for later design documentation.  Paste link to merged design proposal here: **PROPOSAL-NUMBER**
-      - [ ] Decide which repo this feature's code will be checked into. Not everything needs to land in the core kubernetes repo. **REPO-NAME**
-      - [ ] Initial API review (if API).  Maybe same PR as design doc. **PR-NUMBER**
-        -  Any code that changes an API (`/pkg/apis/...`)
-        -  **cc `@kubernetes/api`**
-      - [ ] Identify shepherd (your SIG lead and/or kubernetes-pm@googlegroups.com will be able to help you). **My Shepherd is:** _replace.me@replaceme.com_ (and/or GH Handle)
-        -  A shepherd is an individual who will help acquaint you with the process of getting your feature into the repo, identify reviewers and provide feedback on the feature. They are _not_ (necessarily) the code reviewer of the feature, or tech lead for the area.
-        -  The shepherd is _not_ responsible for showing up to Kubernetes-PM meetings and/or communicating if the feature is on-track to make the release goals. That is still your responsibility.
-      - [ ] Identify secondary/backup contact point. **My Secondary Contact Point is:** _replace.me@replaceme.com_ (and/or GH Handle)
-    - [ ] Write (code + tests + docs) then get them merged.  **ALL-PR-NUMBERS**
-      - [ ] **Code needs to be disabled by default.**   Verified by code OWNERS
+- [ ] Design & Prototyping
+    - [ ] Write a draft of the documentation
+      - During development keep a doc up-to-date about the desired experience of the feature and how someone can try the feature in its current state. Think of it as the README of your new feature and a skeleton for the docs to be written before the Open Targets release. -       - [ ] Paste link to Google Doc: **DOC-LINK**
+    - [ ] Design Proposal.  
+    This goes under [design-proposals](https://github.com/opentargets/features/tree/master/design-proposals).  Doing a proposal as a `.md` file and as a PR allows line-by-line commenting.  
+      - [ ] Paste link to design proposal PR here: **PROPOSAL-NUMBER**
+    - [ ] Decide which repo(s) this feature's code will be checked into.  **REPO-NAME**
+    
+    Plan for branch.targetvalidation.org:
+    - [ ] Write (code + **tests** + docs). Paste all commit, issues or PR numbers here:  **ALL-PR-NUMBERS**
+      - [ ] **Code should have a feature tag to be disabled by default.**   
+      - [ ] branch name here: **branch**
       - [ ] Minimal testing
       - [ ] Minimal docs
-        - cc `@kubernetes/docs` on docs PR
-        - **cc `@kubernetes/feature-reviewers` on this issue** to get approval before checking this off
-        - New apis: *Glossary Section Item* in the docs repo: kubernetes/kubernetes.github.io
-      - [ ] Update release notes
+      - [ ] if on webapp, test a deployment on k8
+       
 - [ ] Beta
+  - [ ] merge code from branch above to master
   - [ ] Testing is sufficient for beta
   - [ ] User docs with tutorials
         - *Updated walkthrough / tutorial* in the docs repo: kubernetes/kubernetes.github.io
