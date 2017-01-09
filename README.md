@@ -43,6 +43,11 @@ Once you have done this, please await review and some consensus building from th
 To put a new feature on the roadmap, you can either:
 - create a new issue in this repository
 - [preferred] create a new markdown `.md` file in [design-proposals](https://github.com/opentargets/features/tree/master/design-proposals) and use it to create a pull-request (with a new branch). This markdown file should sketch out i) what is it, ii) why it would be good to have and iii) what it would look like.
+```md
+## what is it
+## why it would be good to have 
+## what it would look like.
+```
 
 Both approaches work out since PR and Issues have very similar status in github. A PR has the added advantage that the team can comment line-by-line on your design proposal and other documentation.
 
