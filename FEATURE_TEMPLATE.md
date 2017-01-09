@@ -19,28 +19,29 @@ Both approaches work out since PR and Issues have very similar status in github.
 ***
 
 ## Description
-**What is the problem this feature would answer?**
+**What is the problem this feature would answer?**  
 *Replace this text with a description here. Think of it as the 1-paragraph blog post you would write once the feature is released on the Open Targets platform*
 - [ ] Description complete
 
 ## Progress Tracker
 ### Design & Prototyping
 #### Design proposal
-**How are we going to solve the problem?**
+**How are we going to solve the problem?**  
 This goes under [design-proposals](https://github.com/opentargets/features/tree/master/design-proposals).  Start a new markdown file and use it to create the PR. Doing a proposal as a `.md` file and as a PR allows line-by-line commenting.  
 - [ ] Proposal drafted *Paste here google doc link or link to markdown file, if not included as part of a PR already*
 - [ ] This feature's code will be checked into:  *link to repo(s) here*
     
 #### Readme
-**What does the solution look like?**
+**What does the solution look like?**  
 During development of the feature, it's best to keep a README/documentation up-to-date. This can also go in [design-proposals](https://github.com/opentargets/features/tree/master/design-proposals) if there is not a better place for it (eg. closer to the code).  
 In it, sketch the architecture of the feature. Describe the desired experience of the feature and how someone can try the feature in its current state. Think of it as the README of your new feature and a skeleton for the docs to be written before the Open Targets release.
 - [ ] README drafted *Paste here google doc link or link to markdown file, if not included as part of a PR already*
 
 ### Get to a prototype at branch.targetvalidation.org:
-Write code + **tests** + docs. Isolate the work in feature branches. Use as many PRs as you need.  Write tests in the same or different PRs, as is convenient for you.
-  - As each PR is merged, add a comment to this issue referencing the PRs.  Try to paste all commit, issues or PR numbers below, or at least refer to each issue in the comments: 
- *PR-NUMBERS*
+Write code + **tests** + docs. Isolate the work in feature branches. 
+Use as many PRs as you need.  
+Write tests in the same or different PRs, as is convenient for you. 
+As each PR is merged, add a comment to this issue referencing the PRs.  
 
 - [ ] Feature tag *Code should have a feature tag to be disabled by default.*
 - [ ] branch name here: *branch*
