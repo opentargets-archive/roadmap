@@ -10,7 +10,14 @@ Use this template when an issue or suggestion has already been discussed within 
 ## To put a new feature on the roadmap
 You can either:
 - create an issue
-- create a new markdown `.md` file in [design-proposals](https://github.com/opentargets/features/tree/master/design-proposals) and use it to create a pull-request (with a new branch). The markdown file should sketch out i) what is it, ii) why it would be good to have and iii) what it would look like.
+- create a new markdown `.md` file in [design-proposals](https://github.com/opentargets/features/tree/master/design-proposals) and use it to create a pull-request (with a new branch). The markdown file should sketch out i) what is it, ii) why it would be good to have and iii) what it would look like. Just paste this to begin:
+```md
+## what is it 
+
+## why it would be good to have 
+
+## what it would look like.
+```
 
 Both approaches work out since PR and Issues have very similar status in github. A PR has the added advantage that the team can comment line-by-line on your design proposal and other documentation.
 
