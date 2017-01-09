@@ -61,3 +61,9 @@ As each PR is merged, add a comment to this issue referencing the PRs.
 - [ ] blog post?
 - [ ] users that requested it originally informed?
 
+## Make sure you can measure impact
+As dev team we want to know if a new feature are succesful.
+To do that we need to define metrics to assess the impact of each new feature we introduce to the platform
+
+- [ ] metric identified 
+- [ ] identify the one metric that matters (OMTM)
