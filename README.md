@@ -37,10 +37,16 @@ These examples should probably be tracked directly in the repo where the code ch
 
 Once you have done this, please await review and some consensus building from the Open Targets team or directly on github from other users.
 
-# It's a good suggestion. Can we put in the roadmap?
-This piece is intended for the OpenTargets dev team and any code contributors.
+# It's a good suggestion. How do I physically put it in the roadmap?
+*This piece is intended for the OpenTargets dev team or any code contributors.*
 
-- Create a new issue, using the [feature template](https://github.com/opentargets/features/blob/master/FEATURE_TEMPLATE.md)
+To put a new feature on the roadmap, you can either:
+- create an issue
+- create a new markdown `.md` file in [design-proposals](https://github.com/opentargets/features/tree/master/design-proposals) and use it to create a pull-request (with a new branch). This markdown file should sketch out i) what is it, ii) why it would be good to have and iii) what it would look like.
+
+Both approaches work out since PR and Issues have very similar status in github. A PR has the added advantage that the team can comment line-by-line on your design proposal and other documentation.
+
+- The first comment on the issue/PR must be the [feature template](https://github.com/opentargets/features/blob/master/FEATURE_TEMPLATE.md)
 - Follow the guidelines in the template
 - Then head to the [roadmap](https://github.com/orgs/opentargets/projects/3) and move it to the backlog (at least).
 - At our monthly planning meeting we will decide if it can be moved from the backlog to another column.
