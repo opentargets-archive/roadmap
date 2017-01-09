@@ -7,15 +7,17 @@ to reach Stable.
 
 Use this template when an issue or suggestion has already been discussed within the opentargets team or on the issue tracker and some consensus has been reached that that the problem you are trying to solve is worth solving at this time.
 
-**You can either**:
+## To put a new feature on the roadmap
+You can either:
 - create an issue
 - create a new markdown `.md` file in [design-proposals](https://github.com/opentargets/features/tree/master/design-proposals) and use it to create a pull-request (with a new branch). The markdown file should sketch out i) what is it, ii) why it would be good to have and iii) what it would look like.
 
 Both approaches work out since PR and Issues have very similar status in github. A PR has the added advantage that the team can comment line-by-line on your design proposal and other documentation.
 
+**The text below should be the first comment of the issue or PR.**
 
-** Paste the below as the first comment of the issue or PR.**
 ***
+
 ## Description
 **What is the problem this feature would answer?**
 *Replace this text with a description here. Think of it as the 1-paragraph blog post you would write once the feature is released on the Open Targets platform*
