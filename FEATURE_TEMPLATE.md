@@ -17,12 +17,9 @@ Think of it as the README of your new feature and a skeleton for the docs to be 
 *** 
 
 ## Progress Tracker
-
 - [ ] Description complete
-
 - [ ] Proposal drafted 
 - [ ] This feature's code will be checked into:  *link to repo(s) here*
-
 - [ ] README drafted *Paste here google doc link or link to markdown file, if not included as part of a PR already*
 
 ### Subtasks
