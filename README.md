@@ -32,28 +32,28 @@ These examples should probably be tracked directly in the repo where the code ch
 
 - [Search the existing issues](https://github.com/opentargets/features/issues) to see if the feature has already been suggested. Make sure you look at closed issues too.
 - If no similar issue exist, [create a new issue](https://github.com/opentargets/features/issues/new). Please be as descriptive as possible. In particular, it should describe what the value for a Open Targets Platform user should be.
-- Add the `question` label to the issue.
-- If you are suggesting a new data source, please also add the label `datasource` to the issue
+- Add the `QUESTION` label to the issue.
+- If you are suggesting a new data source, please also add the label `DATASOURCE` to the issue
 
 Once you have done this, please await review and some consensus building from the Open Targets team or directly on github from other users.
 
 # It's a good suggestion. How do I physically put it in the roadmap?
-*This piece is intended for the OpenTargets dev team or any code contributors.*
+*The piece below is intended for the OpenTargets dev team or any code contributors.*
 
-To put a new feature on the roadmap, you can either:
-- create a new issue in this repository
-- [preferred] create a new markdown `.md` file in [design-proposals](https://github.com/opentargets/features/tree/master/design-proposals) and use it to create a pull-request (with a new branch). This markdown file should sketch out i) what is it, ii) why it would be good to have and iii) what it would look like. If you don't have something ready, paste this:
-```md
-## what is it
+Thanks for wanting to add a feature to Open Targets!  You will be responsible for guiding
+your feature through completion, and asking the right people for approvals.  
 
-## why it would be good to have 
+Large features typically go through three stages: [Prototype, Beta, and Stable]
+Each stage requires various approvals from various teams (UX, infrastructure, data-pipeline, webapp). 
+Features may require several releases to reach stable.
 
-## what it would look like.
-```
+Use the following process  when an issue or suggestion has already been discussed within the opentargets team or on the issue tracker and some consensus has been reached that that the problem you are trying to solve is worth solving at this time.
 
-Both approaches work out since PR and Issues have very similar status in github. A PR has the added advantage that the team can comment line-by-line on your design proposal and other documentation.
-
-- The first comment on the issue/PR must be the [feature template](https://github.com/opentargets/features/blob/master/FEATURE_TEMPLATE.md)
-- Follow the guidelines in the template
-- Then head to the [roadmap](https://github.com/orgs/opentargets/projects/3) and move it to the backlog (at least).
-- At our monthly planning meeting we will decide if it can be moved from the backlog to another column.
+To put a new feature on the roadmap:
+1. create a new issue in this repository
+2. The first comment on the issue/PR must be the [feature template](https://github.com/opentargets/features/blob/master/FEATURE_TEMPLATE.md) with the progress tracker.
+3. add the `FEATURE` label
+4. reference previous issues or suggestion if applicable. This will allow the person who originated the suggestion to keep track of progress.
+5. Fill the template (**description is the absolute minimum requirement**)
+6. Then head to the [roadmap](https://github.com/orgs/opentargets/projects/3) and move it to the backlog (at least).
+7. We will review it at our monthly planning meeting and decide if/when it can be scheduled.
