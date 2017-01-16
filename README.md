@@ -50,6 +50,7 @@ Features may require several releases to reach stable.
 Use the following process  when an issue or suggestion has already been discussed within the opentargets team or on the issue tracker and some consensus has been reached that that the problem you are trying to solve is worth solving at this time.
 
 To put a new feature on the roadmap:
+
 1. create a new issue in this repository
 2. The first comment on the issue/PR must be the [feature template](https://github.com/opentargets/features/blob/master/FEATURE_TEMPLATE.md) with the progress tracker.
 3. add the `FEATURE` label
