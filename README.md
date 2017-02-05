@@ -52,7 +52,7 @@ Use the following process  when an issue or suggestion has already been discusse
 To put a new feature on the roadmap:
 
 1. create a new issue in this repository
-2. The first comment on the issue/PR must be the [feature template](https://github.com/opentargets/features/blob/master/FEATURE_TEMPLATE.md) with the progress tracker.
+2. The first comment on the issue/PR must be the [feature template](https://github.com/opentargets/features/blob/master/FEATURE_TEMPLATE.md) with the progress tracker. *make sure you use copy/paste the raw markdown*
 3. add the `FEATURE` label
 4. reference previous issues or suggestion if applicable. This will allow the person who originated the suggestion to keep track of progress.
 5. Fill the template (**description is the absolute minimum requirement**)
