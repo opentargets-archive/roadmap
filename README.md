@@ -8,7 +8,7 @@ This repo only contains issues. These issues are umbrellas for new features to b
 
 Here are a few rough heuristics.
 
-A feature is anything that:
+A feature is anything for which *any* of the following applies:
 
 - would be part of release notes
 - a blog post could be written about after its release 
