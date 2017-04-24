@@ -4,7 +4,7 @@ Feature tracking repo for Open Targets releases
 
 This repo only contains issues. These issues are umbrellas for new features to be added to Open Targets. A feature can take one to multiple releases to complete. 
 
-## Is My Thing a Feature?
+## Is My Thing a Feature (or Zenhub epic)?
 
 Here are a few rough heuristics.
 
