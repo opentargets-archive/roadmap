@@ -12,9 +12,6 @@
 
 
 ## Progress Tracker
-- [ ] Description complete
-- [ ] Proposal drafted 
-
 
 ### Get to a prototype at branch.targetvalidation.org:
 > Write code + **tests** + docs. Isolate the work in feature branches.  
