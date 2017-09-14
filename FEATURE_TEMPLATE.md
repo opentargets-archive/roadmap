@@ -1,12 +1,12 @@
 ## Description
-**WHY - What is the problem this feature would answer?**  
+### WHY - What is the problem this feature would answer?**  
 >  *Replace this text with a description here. Think of it as the 1-paragraph blog post you would write once the feature is released on the Open Targets platform*
 
-### Design & Prototyping
-#### Design proposal
-**HOW are we going to solve the problem?**  
+### HOW are we going to solve the problem?**  
 > *Describe technical design of the solution.*
 > *Paste here google doc link or link to markdown file, if already written somewhere else*
+
+### WHAT would this look like?
 > *Screenshots and mock-ups are great*
  
 
@@ -21,10 +21,10 @@ When prioritized:
 * schedule it on the roadmap/board
 
 ### Get to a prototype at branch.targetvalidation.org:
-Write code + **tests** + docs. Isolate the work in feature branches.  
-Use as many PRs as you need.  
-Write tests in the same or different PRs, as is convenient for you.  
-As each PR is merged, add a comment to this issue referencing the PRs.  
+> Write code + **tests** + docs. Isolate the work in feature branches.  
+> Use as many PRs as you need.  
+> Write tests in the same or different PRs, as is convenient for you.  
+> As each PR is merged, add a comment to this issue referencing the PRs.  
 
 - [ ] Feature tag *Code should have a feature tag to be disabled by default.*
 - [ ] Minimal functional testing
@@ -44,7 +44,7 @@ As each PR is merged, add a comment to this issue referencing the PRs.
 - [ ] users that requested it originally informed?
 
 ## Make sure you can measure impact
-As dev team we want to know if a new feature are succesful.
-To do that we need to define metrics to assess the impact of each new feature we introduce to the platform
+> As dev team we want to know if a new feature are succesful.
+> To do that we need to define metrics to assess the impact of each new feature we introduce to the platform
 - [ ] metric identified 
 - [ ] identify the one metric that matters (OMTM)
