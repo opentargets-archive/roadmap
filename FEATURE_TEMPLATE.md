@@ -1,24 +1,20 @@
 ## Description
-### WHY - What is the problem this feature would answer?**  
+* [ ] **WHY - What is the problem this feature would answer?**  
 >  *Replace this text with a description here. Think of it as the 1-paragraph blog post you would write once the feature is released on the Open Targets platform*
 
-### HOW are we going to solve the problem?**  
+* [ ] **HOW are we going to solve the problem?**  
 > *Describe technical design of the solution.*
 > *Paste here google doc link or link to markdown file, if already written somewhere else*
 
-### WHAT would this look like?
+* [ ] **WHAT would this look like?**
 > *Screenshots and mock-ups are great*
  
 
-*** 
 
 ## Progress Tracker
 - [ ] Description complete
 - [ ] Proposal drafted 
 
-When prioritized: 
-* convert it to an Epic
-* schedule it on the roadmap/board
 
 ### Get to a prototype at branch.targetvalidation.org:
 > Write code + **tests** + docs. Isolate the work in feature branches.  
@@ -37,7 +33,7 @@ When prioritized:
 - [ ] at least 1 week internal testing?
 - [ ] received some feedback/input from users (eg. pharma scientist)
 
-### Deploy
+### Released
 - [ ] in the release notes?
 - [ ] documentation updated?		
 - [ ] blog post?
