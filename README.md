@@ -1,14 +1,14 @@
-# Feature Tracking and Backlog
+# Project planning repo
+- feature requests
+- bugs
+- user issues
+- etc.. 
 
-Feature tracking repo for Open Targets releases
-
-This repo only contains issues (worthy of being a zenhub "Epic"). These issues/epics are umbrellas for new features to be added to Open Targets. A feature can take one to multiple releases to complete. 
-
-## Is My Thing a Feature (or Zenhub epic)?
+## Is My Thing a Epic (a.k.a. Feature) ?
 
 Here are a few rough heuristics.
 
-A feature is anything for which *any* of the following applies:
+An epic is anything for which *any* of the following applies:
 
 - would be part of release notes
 - a blog post could be written about after its release 
@@ -16,7 +16,7 @@ A feature is anything for which *any* of the following applies:
 - needs significant effort or changes the platform in a significant way (ex. something that would take 10 person-weeks to implement, introduce or redesign a system component, or introduces API changes)
 - impacts the UX or operation of the platform substantially so that users would need guidance on how to take advantage of it
 
-It is unlikely a feature if it is:
+It is unlikely an epic if it is:
 
 - adding/fixing a  test
 - refactoring code
@@ -30,8 +30,8 @@ These examples should probably be tracked directly in the repo where the code ch
 
 # To suggest a new feature or dataset for inclusion
 
-- [Search the existing issues](https://github.com/opentargets/features/issues) to see if the feature has already been suggested. Make sure you look at closed issues too.
-- If no similar issue exist, [create a new issue](https://github.com/opentargets/features/issues/new). Please be as descriptive as possible. In particular, it should describe what the value for a Open Targets Platform user should be.
+- [Search the existing issues](https://github.com/opentargets/roadmap/issues) to see if the feature has already been suggested. Make sure you look at closed issues too.
+- If no similar issue exist, [create a new issue](https://github.com/opentargets/roadmap/issues/new). Please be as descriptive as possible. In particular, it should describe what the value for a Open Targets Platform user should be.
 - Add the `QUESTION` label to the issue.
 - If you are suggesting a new data source, please also add the label `DATASOURCE` to the issue
 
@@ -43,18 +43,11 @@ Once you have done this, please await review and some consensus building from th
 Thanks for wanting to add a feature to Open Targets!  You will be responsible for guiding
 your feature through completion, and asking the right people for approvals.  
 
-Large features typically go through three stages: [Prototype, Beta, and Stable]
-Each stage requires various approvals from various teams (UX, infrastructure, data-pipeline, webapp). 
-Features may require several releases to reach stable.
-
 Use the following process  when an issue or suggestion has already been discussed within the opentargets team or on the issue tracker and some consensus has been reached that that the problem you are trying to solve is worth solving at this time.
 
 To put a new feature on the roadmap:
 
 1. create a new issue in this repository
-2. The first comment on the issue/PR must be the [feature template](https://github.com/opentargets/features/blob/master/FEATURE_TEMPLATE.md) with the progress tracker. *make sure you use copy/paste the raw markdown*
-3. add the `FEATURE` label
-4. reference previous issues or suggestion if applicable. This will allow the person who originated the suggestion to keep track of progress.
-5. Fill the template (**description is the absolute minimum requirement**)
-6. Then head to the [roadmap](https://github.com/orgs/opentargets/projects/3) and move it to the backlog (at least).
-7. We will review it at our monthly planning meeting and decide if/when it can be scheduled.
+2. add the `FEATURE` label
+3. reference previous issues or suggestion if applicable. This will allow the person who originated the suggestion to keep track of progress.
+4. Fill the template (**description is the absolute minimum requirement**)
