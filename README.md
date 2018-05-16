@@ -11,7 +11,7 @@ Here are a few rough heuristics.
 An epic is anything for which *any* of the following applies:
 
 - would be part of release notes
-- a blog post could be written about after its release 
+- a blog post could be written about it after its release 
 - requires multiple parties/repos participating to complete (backend,webapp,ux,api,...)
 - needs significant effort or changes the platform in a significant way (ex. something that would take 10 person-weeks to implement, introduce or redesign a system component, or introduces API changes)
 - impacts the UX or operation of the platform substantially so that users would need guidance on how to take advantage of it
