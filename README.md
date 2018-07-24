@@ -11,10 +11,10 @@ Here are a few rough heuristics.
 An epic is anything for which *any* of the following applies:
 
 - would be part of release notes
-- a blog post could be written about it after its release 
-- requires multiple parties/repos participating to complete (backend,webapp,ux,api,...)
+- a blog post could be written about it after the release of the Platform
+- requires multiple parties/repos participating to complete (backend, webapp, UX, API,...)
 - needs significant effort or changes the platform in a significant way (ex. something that would take 10 person-weeks to implement, introduce or redesign a system component, or introduces API changes)
-- impacts the UX or operation of the platform substantially so that users would need guidance on how to take advantage of it
+- impacts the UX or operation of the Platform substantially so that users would need guidance on how to take advantage of it
 
 It is unlikely an epic if it is:
 
@@ -38,12 +38,11 @@ These examples should probably be tracked directly in the repo where the code ch
 Once you have done this, please await review and some consensus building from the Open Targets team or directly on github from other users.
 
 # It's a good suggestion. How do I physically put it in the roadmap?
-*The piece below is intended for the OpenTargets dev team or any code contributors.*
+*The piece below is intended for the Open Targets dev team or any code contributors.*
 
-Thanks for wanting to add a feature to Open Targets!  You will be responsible for guiding
-your feature through completion, and asking the right people for approvals.  
+Thanks for wanting to add a feature to Open Targets!  You will be responsible for guiding your feature through completion, and asking the right people for approvals.  
 
-Use the following process  when an issue or suggestion has already been discussed within the opentargets team or on the issue tracker and some consensus has been reached that that the problem you are trying to solve is worth solving at this time.
+Use the following process when an issue or suggestion has already been discussed within the Open Targets team or on the issue tracker and some consensus has been reached that that the problem you are trying to solve is worth solving at this time.
 
 To put a new feature on the roadmap:
 
