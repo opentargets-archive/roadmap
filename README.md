@@ -1,8 +1,7 @@
-# Project planning repo
+# Roadmap repository
 - feature requests
-- bugs
-- user issues
-- etc.. 
+- enhancement requests
+
 
 ## Is My Thing a Epic (a.k.a. Feature) ?
 
@@ -18,12 +17,19 @@ An epic is anything for which *any* of the following applies:
 
 It is unlikely an epic if it is:
 
-- adding/fixing a  test
+- adding/fixing a test
 - refactoring code
 - performance improvements, which are only visible to users as faster API operations, or faster control loops
 - adding error messages or events
 
-These examples should probably be tracked directly in the repo where the code change is happening.
+These examples are tracked directly in the product repo where the code change is happening e.g. 
+
+https://github.com/opentargets/platform/issues
+
+or 
+https://github.com/opentargets/genetics/issues
+
+and therefore, should be reported in the appropriate repository in the first instance.
 
 
 ***
@@ -31,22 +37,24 @@ These examples should probably be tracked directly in the repo where the code ch
 # To suggest a new feature or dataset for inclusion
 
 - [Search the existing issues](https://github.com/opentargets/roadmap/issues) to see if the feature has already been suggested. Make sure you look at closed issues too.
-- If no similar issue exist, [create a new issue](https://github.com/opentargets/roadmap/issues/new). Please be as descriptive as possible. In particular, it should describe what the value for a Open Targets Platform user should be.
-- Add the `QUESTION` label to the issue.
-- If you are suggesting a new data source, please also add the label `DATASOURCE` to the issue
+- If no similar issue exist, please email your request with a specific use case to elaine@ebi.ac.uk (Platform Project Manager).
+- Alternatively, please open an issue in the https://github.com/opentargets/roadmap/issues and assign the label "Kind: Question" and importantly assign to ElaineMcA.
+
+Please be as descriptive as possible. In particular, suggestions should describe what the value for an Open Targets Platform user should be and where in the platform you would expect this feature or enhancement to appear.
+
+- If you are suggesting a new data source, do not open an issue here!  Please use the following link to submit your request with context/ details: http://bit.ly/ot-suggest-data-form
 
 Once you have done this, please await review and some consensus building from the Open Targets team or directly on github from other users.
 
 # It's a good suggestion. How do I physically put it in the roadmap?
 *The piece below is intended for the Open Targets dev team or any code contributors.*
 
-Thanks for wanting to add a feature to Open Targets!  You will be responsible for guiding your feature through completion, and asking the right people for approvals.  
+Thanks for wanting to add a feature to Open Targets!
 
-Use the following process when an issue or suggestion has already been discussed within the Open Targets team or on the issue tracker and some consensus has been reached that that the problem you are trying to solve is worth solving at this time.
-
-To put a new feature on the roadmap:
+Once confirmed as prioritised and part of the roadmap, the issue will be elevated to EPIC status within the repository and updated accordingly by the Project Manager as detailed below:
 
 1. create a new issue in this repository
-2. add the `FEATURE` label
-3. reference previous issues or suggestion if applicable. This will allow the person who originated the suggestion to keep track of progress.
-4. Fill the template (**description is the absolute minimum requirement**)
+2. add the `FEATURE` or "ENHANCEMENT'label
+3. reference previous issues or suggestions where applicable. This will allow original suggestions to be tracked if/when grouped under broader epic topics.
+4. Suggestions raised will be triaged by the OT core team and prioritised in collaboration with consortium partners.
+
