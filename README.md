@@ -46,12 +46,12 @@ Please be as descriptive as possible. In particular, suggestions should describe
 
 Once you have done this, please await review and some consensus building from the Open Targets team or directly on github from other users.
 
-# It's a good suggestion. How do I physically put it in the roadmap?
+# It's a good suggestion. How do I check if it has made it into the roadmap or not?
 *The piece below is intended for the Open Targets dev team or any code contributors.*
 
 Thanks for wanting to add a feature to Open Targets!
 
-Once confirmed as prioritised and part of the roadmap, the issue will be elevated to EPIC status within the repository and updated accordingly by the Project Manager as detailed below:
+Once confirmed as prioritised and part of the roadmap, the issue will be elevated to EPIC (high level) status within the repository and updated routinely on status by the Project Manager via the following process:
 
 1. create a new issue in this repository
 2. add the `FEATURE` or "ENHANCEMENT'label
