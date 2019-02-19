@@ -38,11 +38,10 @@ and therefore, should be reported in the appropriate repository in the first ins
 
 - [Search the existing issues](https://github.com/opentargets/roadmap/issues) to see if the feature has already been suggested. Make sure you look at closed issues too.
 - If no similar issue exist, please email your request with a specific use case to elaine@ebi.ac.uk (Platform Project Manager).
-- Alternatively, please open an issue in the https://github.com/opentargets/roadmap/issues and assign the label "Kind: Question" and importantly assign to ElaineMcA.
 
 Please be as descriptive as possible. In particular, suggestions should describe what the value for an Open Targets Platform user should be and where in the platform you would expect this feature or enhancement to appear.
 
-- If you are suggesting a new data source, do not open an issue here!  Please use the following link to submit your request with context/ details: http://bit.ly/ot-suggest-data-form
+- If you are suggesting a new data source, do not open a github issue  Please use the following link to submit your request with context/ details: http://bit.ly/ot-suggest-data-form
 
 Once you have done this, please await review and some consensus building from the Open Targets team or directly on github from other users.
 
@@ -51,9 +50,9 @@ Once you have done this, please await review and some consensus building from th
 
 Thanks for wanting to add a feature to Open Targets!
 
-Once confirmed as prioritised and part of the roadmap, the issue will be elevated to EPIC (high level) status within the repository and updated routinely on status by the Project Manager via the following process:
+Once confirmed as prioritised and part of the roadmap, the issue will be elevated to EPIC (high level) status within the appropriate repository and updated routinely on status by the Project Manager via the following process:
 
-1. create a new issue in this repository
+1. update the epic with appropriate subtickets for execution
 2. add the `FEATURE` or "ENHANCEMENT'label
 3. reference previous issues or suggestions where applicable. This will allow original suggestions to be tracked if/when grouped under broader epic topics.
 4. Suggestions raised will be triaged by the OT core team and prioritised in collaboration with consortium partners.
